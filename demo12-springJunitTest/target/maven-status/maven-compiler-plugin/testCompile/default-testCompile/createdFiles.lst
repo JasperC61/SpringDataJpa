@@ -1,0 +1,4 @@
+com\example\demo\service\StudentServiceImplMockTest.class
+com\example\demo\DemoApplicationTests.class
+com\example\demo\dao\StudentDaoImplTest.class
+com\example\demo\controller\StudentControllerTest.class
