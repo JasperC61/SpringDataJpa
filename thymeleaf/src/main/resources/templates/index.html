@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>my home</h1>
+    <p th:text="${myStudent.id}"></p>
+    <p th:text="${myStudent.name}"></p>
+    <a href="/hello">go to hello html</a></br>
+    <img th:src="@{/images/bird.png}">
+
+    <form method='post' action='/login'>
+        帳號：<input type='text' name='userName'><br/>
+        密碼：<input type='text' name='userPassword'>
+        <input type='submit' value='登入'>
+    </form>
+</body>
+</html>
